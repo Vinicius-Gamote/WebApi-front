@@ -17,8 +17,9 @@ export class UsersComponent implements OnInit {
   public users: User[] = []
   public usersFiltered: User[] = []
 
-  public widthImg: Number = 150
+  public widthImg: Number = 160
   public marginImg: Number = 2
+  public heightImg: Number = 110
   public showImg: boolean = false
 
   private _listFilter: string = ''
