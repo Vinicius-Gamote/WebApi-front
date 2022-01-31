@@ -6,8 +6,11 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { UsersComponent } from './users/users.component';
+import { UsersComponent } from './components/users/users.component';
 import { NavComponent } from './nav/nav.component';
+import { ContactsComponent } from './components/contacts/contacts.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { ProfileComponent } from './components/profile/profile.component';
 
 import { UserService } from './services/user.service';
 import { DateTimeFormatPipe } from './helpers/DateTimeFormat.pipe';
@@ -23,6 +26,9 @@ import { NgxSpinnerModule } from 'ngx-spinner';
   declarations: [
     AppComponent,
       UsersComponent,
+      ContactsComponent,
+      DashboardComponent,
+      ProfileComponent,
       NavComponent,
       DateTimeFormatPipe
    ],
