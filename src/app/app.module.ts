@@ -11,6 +11,7 @@ import { NavComponent } from './nav/nav.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ProfileComponent } from './components/profile/profile.component';
+import { TitleComponent } from './shared/title/title.component';
 
 import { UserService } from './services/user.service';
 import { DateTimeFormatPipe } from './helpers/DateTimeFormat.pipe';
@@ -30,6 +31,7 @@ import { NgxSpinnerModule } from 'ngx-spinner';
       DashboardComponent,
       ProfileComponent,
       NavComponent,
+      TitleComponent,
       DateTimeFormatPipe
    ],
   imports: [
